@@ -10,7 +10,6 @@ class Solution {
                          .replace("seven", "7")
                          .replace("eight", "8")
                          .replace("nine", "9");
-
         long answer = Long.parseLong(numbers);
         return answer;
     }
