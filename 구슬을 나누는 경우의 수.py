@@ -17,7 +17,5 @@ def solution(balls, share):
     for i in range(1, balls+1):
         sum3 *= n
         n += 1
-
     answer = sum3 / (sum1 * sum2)
-
     return answer
