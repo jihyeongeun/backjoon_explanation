@@ -9,14 +9,16 @@ class Solution{
             if(arr[1].equals("+")){
                 if(Integer.parseInt(arr[0]) + Integer.parseInt(arr[2]) == Integer.parseInt(arr[4])){
                     answer[i] = "O";
-                } else {
+                }
+                else {
                     answer[i] = "X";
                 }
             }
             if(arr[1].equals("-")) {
                 if (Integer.parseInt(arr[0]) - Integer.parseInt(arr[2]) == Integer.parseInt(arr[4])) {
                     answer[i] = "O";
-                } else {
+                }
+                else {
                     answer[i] = "X";
                 }
             }
