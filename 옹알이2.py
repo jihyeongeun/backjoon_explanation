@@ -16,7 +16,7 @@ class Solution {
 
             if(babbling[i].length() == 0){
             answer++;
-        }
+            }
         }
         return answer;
     }
